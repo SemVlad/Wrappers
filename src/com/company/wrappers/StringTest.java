@@ -78,8 +78,7 @@ public class StringTest {
         bd.reverse();   // Разворачиваем все задом на перед
 
         // Делаем все в одну строчку
-        for (
-                int i = 0; i < bd.length(); i++) {
+        for (int i = 0; i < bd.length(); i++) {
             if (String.valueOf(bd.charAt(i)).equals("\n")) {
                 bd.deleteCharAt(i);
             }
