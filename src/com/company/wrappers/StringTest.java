@@ -34,6 +34,7 @@ public class StringTest {
             }
         }
         System.out.println("Самое длинное название фрукта: " + fruitNames[index].toLowerCase());
+        System.out.println(fruitNames[index].substring(0,3));   // "Обрезанный" фрукт )
 
         // Играемся со строкой
         String newStr = "  Я_новая_строка   ";
@@ -57,7 +58,7 @@ public class StringTest {
             if (arrText[arrText.length - 1].equals(wordEnd)) {
                 System.out.println("Процесс завершен... не повезло)");
             } else {
-                System.out.println("ще на підльоті...");
+                System.out.println("ще на підльоті?...");
             }
             for (String s : arrText) {
                 if (s.equalsIgnoreCase(wordErr)) {
