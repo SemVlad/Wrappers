@@ -26,7 +26,7 @@ public class WrapperTest {
         Float f1 = 13.0f;
         Float f2 = Float.valueOf(13.0f);
         Float f3 = new Float(13.0f);
-        Float f4 = Float.parseFloat("13.0f");
+        Float f4 = Float.parseFloat("13.0");
 
         Double d1 = 13.0;
         Double d2 = Double.valueOf(13.0);
